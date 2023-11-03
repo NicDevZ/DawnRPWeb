@@ -13,6 +13,7 @@ body, html {
   height: 100%;
   color: #777;
   line-height: 1.8;
+  background-color: black;
 }
 
 /* Create a Parallax Effect */
@@ -94,6 +95,10 @@ body, html {
     color:white;
 }
 
+.opacity{
+  opacity: 85%;
+}
+
 
 </style>
 </head>
@@ -124,7 +129,7 @@ body, html {
 </div>
 
 <!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+<div class="bgimg-1 w3-display-container opacity" id="home">
   <div class="w3-display-middle middle" style="white-space:nowrap;">
     <a onclick="connect()"><div class="logo"></div></a>
     <a>Click the logo to connect</a>
